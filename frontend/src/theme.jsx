@@ -1,7 +1,10 @@
+// themes.js
 import { createTheme } from '@mui/material/styles';
 
+// Light Apple-inspired theme
 const lightTheme = createTheme({
   palette: {
+    mode: 'light',
     primary: {
       main: '#333',
     },
@@ -19,8 +22,10 @@ const lightTheme = createTheme({
   // Define typography and other properties for the light theme
 });
 
+// Dark Apple-inspired theme
 const darkTheme = createTheme({
   palette: {
+    mode: 'dark',
     primary: {
       main: '#333',
     },
