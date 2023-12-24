@@ -1,5 +1,5 @@
 
-import { AppBar, Toolbar, Typography, Container, Button } from '@mui/material';
+import { Typography, Container, Button } from '@mui/material';
 
 function HomePage() {
   return (
